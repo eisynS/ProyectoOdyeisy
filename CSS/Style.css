@@ -89,9 +89,22 @@ grid-template-areas: "mainp mainp"
  
 }
 .girar{
-    animation-name: girar;
+    animation-name: imagen-girar;
     animation-duration: 50s;
     animation-timing-function: linear;
+}
+
+@keyframes imagen-girar{
+
+from{
+
+    transform: rotate(0);
+}
+
+to{
+    transform: rotate(360deg);
+
+}
 }
 
 .imagen2{
