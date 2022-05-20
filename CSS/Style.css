@@ -85,7 +85,13 @@ grid-template-areas: "mainp mainp"
 
 .imagen1{
     grid-area: imagen1;
+
  
+}
+.girar{
+    animation-name: girar;
+    animation-duration: 50s;
+    animation-timing-function: linear;
 }
 
 .imagen2{
